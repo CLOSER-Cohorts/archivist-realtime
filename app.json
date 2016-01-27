@@ -1,0 +1,12 @@
+{
+  "name": "archivist-realtime",
+  "description": "This holds the Node.js app that supplies the realtime connection for users",
+  "scripts": {
+    "postdeploy": "npm install"
+  },
+  "env": {
+  },
+  "addons": [
+
+  ]
+}
