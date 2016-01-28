@@ -1,0 +1,17 @@
+{
+  "name": "archivist-realtime",
+  "version": "0.0.1",
+  "description": "The Node.js app that delivers boradcast updates to all live Archivist users when changes are submitted to Redis.",
+  "author": "William Poynter <w.poynter@ioe.ac.uk>",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CLOSER-Cohorts/archivist-realtime"
+  },
+  "dependencies": {
+    "redis": "^2.4.2",
+    "socket.io": "^1.4.5"
+  }
+}
